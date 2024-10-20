@@ -9,7 +9,7 @@ sliderEl.addEventListener("input", (event) => {
     
     const progress = (tempSliderValue / sliderEl.max) * 100;
    
-    sliderEl.style.background = `linear-gradient(to right, #f50 ${progress}%, #ccc ${progress}%)`;
+    sliderEl.style.background = `linear-gradient(to right, #a5f3eb ${progress}%, #ccc ${progress}%)`;
   })
   
 // sliderEl.addEventListener("input", (event) => {
