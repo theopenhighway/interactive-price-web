@@ -12,7 +12,7 @@
   </head>
 
   <body>
-    <script src="index.js"></script>
+    <script src="script.js"></script>
 
     <div class="window">
         <div class="intro">
@@ -32,10 +32,12 @@
             <div>
                 <div class="stats">
 
-                        <p>100K PAGEVIEWS</p>
+                        <div class="trial">
+                            <p class="view-count">100</p> <p>K PAGEVIEWS</p>
+                        </div>
 
                         <div class="trial">
-                            <h1>$16.00</h1>
+                            <h1>$</h1> <h1 class="subs-cost">0.00</h1>
                             <p> /month</p>
                         </div>
                         
@@ -43,7 +45,7 @@
                 </div>
     
                 <div class="slider">
-                    <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
+                    <input type="range" min="0" max="100" value="0" class="slider" id="myRange" oninput="progressScript()">
                 </div>
     
                 <div class="fee">

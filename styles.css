@@ -70,6 +70,54 @@ body {
     padding: 0.8em 0;
 }
 
+input[type="range"]{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+
+    cursor: pointer;
+    outline: none;
+  
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+    height: 0.5em;
+    background:  hsl(224, 65%, 95%);
+    border-radius: 1em;
+  }
+
+input[type="range"]::-moz-range-track {
+height: 0.5em;
+background:  hsl(224, 65%, 95%);
+border-radius: 1em;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+/* removing default appearance */
+-webkit-appearance: none;
+appearance: none;
+/* creating a custom design */
+height: 3.5em;
+width: 3.5em;
+border-radius: 50%;
+background-color: hsl(174, 86%, 45%);
+border: none;
+}
+
+input[type="range"]::-moz-range-thumb {
+height: 3.5em;
+width: 3.5em;
+border-radius: 50%;
+background-color: hsl(174, 86%, 45%);
+border: none;
+background-image: url('images/icon-slider.svg') ;
+background-size: cover;
+}
+
+
+
+
+
 /* toggle in label designing */
 .toggle {
     position : relative ;
