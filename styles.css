@@ -79,7 +79,7 @@ input[type="range"]{
     outline: none;
 
     height: 0.01em;
-    background: hsl(224, 65%, 95%);
+    background:  hsl(224, 65%, 95%);
     border-radius: 15px;
   
 }
