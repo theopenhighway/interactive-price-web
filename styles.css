@@ -15,7 +15,6 @@ body {
     padding: 1em;
     flex-direction: column;
     padding: 2em;
-    /* background-color:burlywood; */
     align-items: center;
 }
 
@@ -44,6 +43,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .price-box {
@@ -58,10 +58,16 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding: 0 0 2em 0 ; 
+    border-bottom: 1px solid hsl(224, 65%, 95%);
 }
 
+.fee > p {
+    margin: 0 0.7em;
+}
 .slider {
     width: 100%;
+    padding: 0.8em 0;
 }
 
 /* toggle in label designing */
@@ -111,26 +117,63 @@ p{
 
 h2 {
     font-family: 'Manrope',sans-serif; 
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: 800;
-    color:  hsl(227, 35%, 25%)
+    color:  hsl(227, 35%, 25%);
+    margin:0;
+    padding: 0.5em;
 }
 
 h1 {
     font-family: 'Manrope',sans-serif; 
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: 800;
     color:  hsl(227, 35%, 25%);
     margin: 0;
 }
 
-.trial, .checklist {
+.trial {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    margin: 1em 0 0 0;
+    
 }
 
+.checklist {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 0.8em;
+    padding: 0.3em 0;
+}
 
+.discount {
+    background-color: hsl(14, 92%, 95%);
+    border-radius: 0.8em;
+    display: flex;
+    justify-content: center;
+    padding: 0.2em 0.2em;
+    height: 100%;
+}
+
+.discount > p {
+    font-size: 0.8em;
+    margin: 0;
+    color: hsl(15, 100%, 70%);
+
+}
+
+button {
+    color: white;
+    background-color: hsl(227, 35%, 25%);
+    border: none;
+    width: 15em;
+    border-radius: 6em;
+    height: 3.5em;
+
+}
 @media only screen and (max-width: 375px) {
 
 }
