@@ -78,7 +78,7 @@ input[type="range"]{
     cursor: pointer;
     outline: none;
 
-    height: 0.01em;
+    height: 0.1rem;
     background:  hsl(224, 65%, 95%);
     border-radius: 15px;
   
@@ -132,7 +132,6 @@ input[type="range"]::-webkit-slider-thumb:hover {
   }
 
 
-
 /* toggle in label designing */
 .toggle {
     position : relative ;
@@ -161,7 +160,7 @@ input[type="range"]::-webkit-slider-thumb:hover {
 .checkbox:checked + .toggle::after {
     left : 1.6em; 
 }
-        
+
 /* Checkbox checked toggle label bg color */
 .checkbox:checked + .toggle {
     background-color: hsl(174, 86%, 45%);
